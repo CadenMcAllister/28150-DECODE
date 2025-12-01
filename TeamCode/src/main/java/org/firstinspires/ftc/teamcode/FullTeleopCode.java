@@ -69,6 +69,7 @@ public class FullTeleopCode extends OpMode {
     public void stop() {
         // Ensure all outputs are zeroed when OpMode stops
         shootFunc.shootFunc(0.0);
+        intakeFunc.intakeFunc(0.0);
         drive.drive(0.0, 0.0);
     }
 }
