@@ -22,6 +22,7 @@ public class FullTeleopCode extends OpMode {
     @Override
     public void init() {
         shootFunc.init(hardwareMap);
+        intakeFunc.init(hardwareMap);
         drive.init(hardwareMap);
     }
 
