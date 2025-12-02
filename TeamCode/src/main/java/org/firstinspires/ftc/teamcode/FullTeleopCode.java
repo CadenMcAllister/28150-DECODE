@@ -8,7 +8,7 @@ import org.firstinspires.ftc.teamcode.mechanisms.ArcadeDrive;
 import org.firstinspires.ftc.teamcode.mechanisms.IntakeClass;
 import org.firstinspires.ftc.teamcode.mechanisms.LauncherClass;
 
-@TeleOp (name = "FullTeleOPTest")
+@TeleOp (name = "FullTeleOpCode")
 public class FullTeleopCode extends OpMode {
     private final LauncherClass shootFunc = new LauncherClass();
     private final ArcadeDrive drive = new ArcadeDrive();
